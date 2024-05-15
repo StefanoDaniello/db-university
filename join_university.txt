@@ -91,3 +91,13 @@ GROUP BY
     `exam_student`.`exam_id`
 HAVING
     `max_vote` >= 18;
+
+Commento:
+ La clausola HAVING
+viene utilizzata per filtrare i risultati dopo che sono stati 
+raggruppati e dopo che sono state applicate le funzioni di aggregazione.
+
+Commento:
+WHERE viene utilizzato 
+per filtrare i dati di base prima dell'aggregazione, mentre 
+HAVING viene utilizzato per filtrare i dati aggregati dopo l'aggregazione.
